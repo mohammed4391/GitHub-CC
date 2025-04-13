@@ -1,0 +1,5 @@
+export PGHOST=mohammedpg.postgres.database.azure.com
+export PGUSER=mohammed
+export PGPORT=5432
+export PGDATABASE=postgres
+export PGPASSWORD=post#012

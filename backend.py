@@ -50,7 +50,7 @@ vectorstore = Chroma(
 )
 
 storage_account_sas_url = os.environ.get("AZURE_STORAGE_SAS_URL")
-storage_container_name = os.environ.get("AZURE_STORAGE_CONTAINER")
+storage_container_name = os.environ.get("/")
 storage_resource_uri = storage_account_sas_url.split('?')[0]
 token = storage_account_sas_url.split('?')[1]
 
